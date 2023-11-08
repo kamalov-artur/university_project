@@ -1,0 +1,56 @@
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    text-align: center;
+}
+
+nav img {
+    max-width: 100px;
+    max-height: 50px;
+    border-radius: 10px;
+}
+
+nav a.active {
+    color: #ff5733;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff5733; /
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Объединяет грани ячеек в одну линию */
+}
+
+th, td {
+    border: 1px solid #ccc; /* Добавляет линии между ячейками таблицы */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Добавьте этот блок, если вы хотите добавить стили для заголовков (th) */
+th {
+    background-color: #f2f2f2;
+}
+body {
+            font-family: Arial, sans-serif;
+        }
+
+thumbnail-link {
+            max-width: 100px; /* Максимальная ширина миниатюрной гиперссылки */
+            display: block;
+            margin: 0 auto; /* Центрирование по горизонтали */
+            margin-top: 50px; /* Отступ сверху для центрирования по вертикали */
+        }
